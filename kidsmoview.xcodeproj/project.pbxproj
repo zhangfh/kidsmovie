@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ECD188891CB76BE500ED3413 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD188881CB76BE500ED3413 /* AppDelegate.swift */; };
+		ECD1888B1CB76BE500ED3413 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD1888A1CB76BE500ED3413 /* ViewController.swift */; };
+		ECD1888E1CB76BE500ED3413 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECD1888C1CB76BE500ED3413 /* Main.storyboard */; };
+		ECD188911CB76BE500ED3413 /* kidsmoview.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ECD1888F1CB76BE500ED3413 /* kidsmoview.xcdatamodeld */; };
+		ECD188931CB76BE500ED3413 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECD188921CB76BE500ED3413 /* Assets.xcassets */; };
+		ECD188961CB76BE500ED3413 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECD188941CB76BE500ED3413 /* LaunchScreen.storyboard */; };
+		ECD188A11CB76BE600ED3413 /* kidsmoviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD188A01CB76BE600ED3413 /* kidsmoviewTests.swift */; };
+		ECD188AC1CB76BE600ED3413 /* kidsmoviewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD188AB1CB76BE600ED3413 /* kidsmoviewUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ECD1889D1CB76BE600ED3413 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECD1887D1CB76BE500ED3413 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECD188841CB76BE500ED3413;
+			remoteInfo = kidsmoview;
+		};
+		ECD188A81CB76BE600ED3413 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECD1887D1CB76BE500ED3413 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECD188841CB76BE500ED3413;
+			remoteInfo = kidsmoview;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ECD188851CB76BE500ED3413 /* kidsmoview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kidsmoview.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECD188881CB76BE500ED3413 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ECD1888A1CB76BE500ED3413 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ECD1888D1CB76BE500ED3413 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ECD188901CB76BE500ED3413 /* kidsmoview.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = kidsmoview.xcdatamodel; sourceTree = "<group>"; };
+		ECD188921CB76BE500ED3413 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ECD188951CB76BE500ED3413 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ECD188971CB76BE600ED3413 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECD1889C1CB76BE600ED3413 /* kidsmoviewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kidsmoviewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECD188A01CB76BE600ED3413 /* kidsmoviewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kidsmoviewTests.swift; sourceTree = "<group>"; };
+		ECD188A21CB76BE600ED3413 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECD188A71CB76BE600ED3413 /* kidsmoviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kidsmoviewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECD188AB1CB76BE600ED3413 /* kidsmoviewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kidsmoviewUITests.swift; sourceTree = "<group>"; };
+		ECD188AD1CB76BE600ED3413 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECD188821CB76BE500ED3413 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECD188991CB76BE600ED3413 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECD188A41CB76BE600ED3413 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECD1887C1CB76BE500ED3413 = {
+			isa = PBXGroup;
+			children = (
+				ECD188871CB76BE500ED3413 /* kidsmoview */,
+				ECD1889F1CB76BE600ED3413 /* kidsmoviewTests */,
+				ECD188AA1CB76BE600ED3413 /* kidsmoviewUITests */,
+				ECD188861CB76BE500ED3413 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECD188861CB76BE500ED3413 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECD188851CB76BE500ED3413 /* kidsmoview.app */,
+				ECD1889C1CB76BE600ED3413 /* kidsmoviewTests.xctest */,
+				ECD188A71CB76BE600ED3413 /* kidsmoviewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECD188871CB76BE500ED3413 /* kidsmoview */ = {
+			isa = PBXGroup;
+			children = (
+				ECD188881CB76BE500ED3413 /* AppDelegate.swift */,
+				ECD1888A1CB76BE500ED3413 /* ViewController.swift */,
+				ECD1888C1CB76BE500ED3413 /* Main.storyboard */,
+				ECD188921CB76BE500ED3413 /* Assets.xcassets */,
+				ECD188941CB76BE500ED3413 /* LaunchScreen.storyboard */,
+				ECD188971CB76BE600ED3413 /* Info.plist */,
+				ECD1888F1CB76BE500ED3413 /* kidsmoview.xcdatamodeld */,
+			);
+			path = kidsmoview;
+			sourceTree = "<group>";
+		};
+		ECD1889F1CB76BE600ED3413 /* kidsmoviewTests */ = {
+			isa = PBXGroup;
+			children = (
+				ECD188A01CB76BE600ED3413 /* kidsmoviewTests.swift */,
+				ECD188A21CB76BE600ED3413 /* Info.plist */,
+			);
+			path = kidsmoviewTests;
+			sourceTree = "<group>";
+		};
+		ECD188AA1CB76BE600ED3413 /* kidsmoviewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ECD188AB1CB76BE600ED3413 /* kidsmoviewUITests.swift */,
+				ECD188AD1CB76BE600ED3413 /* Info.plist */,
+			);
+			path = kidsmoviewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECD188841CB76BE500ED3413 /* kidsmoview */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECD188B01CB76BE600ED3413 /* Build configuration list for PBXNativeTarget "kidsmoview" */;
+			buildPhases = (
+				ECD188811CB76BE500ED3413 /* Sources */,
+				ECD188821CB76BE500ED3413 /* Frameworks */,
+				ECD188831CB76BE500ED3413 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kidsmoview;
+			productName = kidsmoview;
+			productReference = ECD188851CB76BE500ED3413 /* kidsmoview.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ECD1889B1CB76BE600ED3413 /* kidsmoviewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECD188B31CB76BE600ED3413 /* Build configuration list for PBXNativeTarget "kidsmoviewTests" */;
+			buildPhases = (
+				ECD188981CB76BE600ED3413 /* Sources */,
+				ECD188991CB76BE600ED3413 /* Frameworks */,
+				ECD1889A1CB76BE600ED3413 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECD1889E1CB76BE600ED3413 /* PBXTargetDependency */,
+			);
+			name = kidsmoviewTests;
+			productName = kidsmoviewTests;
+			productReference = ECD1889C1CB76BE600ED3413 /* kidsmoviewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ECD188A61CB76BE600ED3413 /* kidsmoviewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECD188B61CB76BE600ED3413 /* Build configuration list for PBXNativeTarget "kidsmoviewUITests" */;
+			buildPhases = (
+				ECD188A31CB76BE600ED3413 /* Sources */,
+				ECD188A41CB76BE600ED3413 /* Frameworks */,
+				ECD188A51CB76BE600ED3413 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECD188A91CB76BE600ED3413 /* PBXTargetDependency */,
+			);
+			name = kidsmoviewUITests;
+			productName = kidsmoviewUITests;
+			productReference = ECD188A71CB76BE600ED3413 /* kidsmoviewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECD1887D1CB76BE500ED3413 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = zhangfanghui;
+				TargetAttributes = {
+					ECD188841CB76BE500ED3413 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					ECD1889B1CB76BE600ED3413 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = ECD188841CB76BE500ED3413;
+					};
+					ECD188A61CB76BE600ED3413 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = ECD188841CB76BE500ED3413;
+					};
+				};
+			};
+			buildConfigurationList = ECD188801CB76BE500ED3413 /* Build configuration list for PBXProject "kidsmoview" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECD1887C1CB76BE500ED3413;
+			productRefGroup = ECD188861CB76BE500ED3413 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECD188841CB76BE500ED3413 /* kidsmoview */,
+				ECD1889B1CB76BE600ED3413 /* kidsmoviewTests */,
+				ECD188A61CB76BE600ED3413 /* kidsmoviewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECD188831CB76BE500ED3413 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECD188961CB76BE500ED3413 /* LaunchScreen.storyboard in Resources */,
+				ECD188931CB76BE500ED3413 /* Assets.xcassets in Resources */,
+				ECD1888E1CB76BE500ED3413 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECD1889A1CB76BE600ED3413 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECD188A51CB76BE600ED3413 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECD188811CB76BE500ED3413 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECD1888B1CB76BE500ED3413 /* ViewController.swift in Sources */,
+				ECD188911CB76BE500ED3413 /* kidsmoview.xcdatamodeld in Sources */,
+				ECD188891CB76BE500ED3413 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECD188981CB76BE600ED3413 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECD188A11CB76BE600ED3413 /* kidsmoviewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECD188A31CB76BE600ED3413 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECD188AC1CB76BE600ED3413 /* kidsmoviewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ECD1889E1CB76BE600ED3413 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECD188841CB76BE500ED3413 /* kidsmoview */;
+			targetProxy = ECD1889D1CB76BE600ED3413 /* PBXContainerItemProxy */;
+		};
+		ECD188A91CB76BE600ED3413 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECD188841CB76BE500ED3413 /* kidsmoview */;
+			targetProxy = ECD188A81CB76BE600ED3413 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ECD1888C1CB76BE500ED3413 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECD1888D1CB76BE500ED3413 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ECD188941CB76BE500ED3413 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECD188951CB76BE500ED3413 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ECD188AE1CB76BE600ED3413 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ECD188AF1CB76BE600ED3413 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECD188B11CB76BE600ED3413 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = kidsmoview/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Lonshinetech.kidsmoview;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ECD188B21CB76BE600ED3413 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = kidsmoview/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Lonshinetech.kidsmoview;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ECD188B41CB76BE600ED3413 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = kidsmoviewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Lonshinetech.kidsmoviewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kidsmoview.app/kidsmoview";
+			};
+			name = Debug;
+		};
+		ECD188B51CB76BE600ED3413 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = kidsmoviewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Lonshinetech.kidsmoviewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kidsmoview.app/kidsmoview";
+			};
+			name = Release;
+		};
+		ECD188B71CB76BE600ED3413 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = kidsmoviewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Lonshinetech.kidsmoviewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = kidsmoview;
+			};
+			name = Debug;
+		};
+		ECD188B81CB76BE600ED3413 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = kidsmoviewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Lonshinetech.kidsmoviewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = kidsmoview;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECD188801CB76BE500ED3413 /* Build configuration list for PBXProject "kidsmoview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECD188AE1CB76BE600ED3413 /* Debug */,
+				ECD188AF1CB76BE600ED3413 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECD188B01CB76BE600ED3413 /* Build configuration list for PBXNativeTarget "kidsmoview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECD188B11CB76BE600ED3413 /* Debug */,
+				ECD188B21CB76BE600ED3413 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ECD188B31CB76BE600ED3413 /* Build configuration list for PBXNativeTarget "kidsmoviewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECD188B41CB76BE600ED3413 /* Debug */,
+				ECD188B51CB76BE600ED3413 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ECD188B61CB76BE600ED3413 /* Build configuration list for PBXNativeTarget "kidsmoviewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECD188B71CB76BE600ED3413 /* Debug */,
+				ECD188B81CB76BE600ED3413 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		ECD1888F1CB76BE500ED3413 /* kidsmoview.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				ECD188901CB76BE500ED3413 /* kidsmoview.xcdatamodel */,
+			);
+			currentVersion = ECD188901CB76BE500ED3413 /* kidsmoview.xcdatamodel */;
+			path = kidsmoview.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = ECD1887D1CB76BE500ED3413 /* Project object */;
+}
