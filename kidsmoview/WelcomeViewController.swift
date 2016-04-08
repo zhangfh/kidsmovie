@@ -17,8 +17,8 @@ class WelcomeViewController: UIViewController {
         super.viewDidAppear(animated)
         
         // 更新约束
-        userIcon.snp_updateConstraints { (make) -> Void in
-            make.bottom.equalTo(-(kScreenH - 160))
+       // userIcon.snp_updateConstraints { (make) -> Void in
+         //   make.bottom.equalTo(-(kScreenH - 160))
             
             /* image constraint
              ------------------
@@ -40,7 +40,7 @@ class WelcomeViewController: UIViewController {
              |                  |
              --------------------
              */
-        }
+       // }
         
         // 动画移动头像
         UIView.animateWithDuration(1.0, delay: 0.1, usingSpringWithDamping: 0.6, initialSpringVelocity: 5, options: UIViewAnimationOptions(rawValue: 0), animations: { () -> Void in
@@ -49,8 +49,8 @@ class WelcomeViewController: UIViewController {
         }) { (_) -> Void in
             // 动画渐变显示文字
             UIView.animateWithDuration(1.0, animations: { () -> Void in
-                print("usericon new \(self.userIcon.frame)")
-                self.userName.alpha = 1
+                //print("usericon new \(self.userIcon.frame)")
+                //self.userName.alpha = 1
                 }, completion: { (_) -> Void in
                     // 进入主页
                     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (Int64)(1 * NSEC_PER_SEC)), dispatch_get_main_queue()) { () -> Void in
@@ -71,14 +71,14 @@ class WelcomeViewController: UIViewController {
         // 背景颜色
         view.backgroundColor = UIColor(patternImage: UIImage(named: "welcome")!)
         // 添加控件
-        view.addSubview(userIcon)
-        view.addSubview(userName)
+        //view.addSubview(userIcon)
+        //view.addSubview(userName)
         
         // 约束头像
-        userIcon.snp_makeConstraints { (make) -> Void in
-            make.size.equalTo(CGSize(width:100, height: 100))
-            make.centerX.equalTo(view.snp_centerX)
-            make.bottom.equalTo(-160)
+        //userIcon.snp_makeConstraints { (make) -> Void in
+          //  make.size.equalTo(CGSize(width:100, height: 100))
+          //  make.centerX.equalTo(view.snp_centerX)
+          //  make.bottom.equalTo(-160)
             
             /* image constraint
              ------------------
@@ -100,13 +100,13 @@ class WelcomeViewController: UIViewController {
              |                  |
              --------------------
              */
-        }
+       // }
         
         // 约束用户名称
-        userName.snp_makeConstraints { (make) -> Void in
-            make.centerX.equalTo(userIcon.snp_centerX)
-            make.top.equalTo(userIcon.snp_bottom).offset(10)
-        }
+        //userName.snp_makeConstraints { (make) -> Void in
+          //  make.centerX.equalTo(userIcon.snp_centerX)
+          //  make.top.equalTo(userIcon.snp_bottom).offset(10)
+        //}
         //print("userIcon bounds \(userIcon.frame)")
         // print("userName bounds \(userName.frame)")
         
