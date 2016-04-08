@@ -18,6 +18,11 @@
 		ECBE45351CB78F8500673FBD /* Film.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBE45341CB78F8500673FBD /* Film.swift */; };
 		ECBE45371CB7918600673FBD /* UIImageView+downloadimage.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBE45361CB7918600673FBD /* UIImageView+downloadimage.swift */; };
 		ECBE45391CB79AAA00673FBD /* KidsTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBE45381CB79AAA00673FBD /* KidsTabBarController.swift */; };
+		ECBE453B1CB79C1900673FBD /* MovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBE453A1CB79C1900673FBD /* MovieViewController.swift */; };
+		ECBE453D1CB79C6D00673FBD /* TipLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBE453C1CB79C6D00673FBD /* TipLabel.swift */; };
+		ECBE453F1CB79D1D00673FBD /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBE453E1CB79D1D00673FBD /* UIView+Extension.swift */; };
+		ECBE45411CB79F5C00673FBD /* SwiftyJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBE45401CB79F5C00673FBD /* SwiftyJson.swift */; };
+		ECBE45431CB79FE500673FBD /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBE45421CB79FE500673FBD /* Constants.swift */; };
 		ECD188891CB76BE500ED3413 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD188881CB76BE500ED3413 /* AppDelegate.swift */; };
 		ECD1888E1CB76BE500ED3413 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECD1888C1CB76BE500ED3413 /* Main.storyboard */; };
 		ECD188911CB76BE500ED3413 /* kidsmoview.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ECD1888F1CB76BE500ED3413 /* kidsmoview.xcdatamodeld */; };
@@ -59,6 +64,11 @@
 		ECBE45341CB78F8500673FBD /* Film.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Film.swift; sourceTree = "<group>"; };
 		ECBE45361CB7918600673FBD /* UIImageView+downloadimage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+downloadimage.swift"; sourceTree = "<group>"; };
 		ECBE45381CB79AAA00673FBD /* KidsTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KidsTabBarController.swift; sourceTree = "<group>"; };
+		ECBE453A1CB79C1900673FBD /* MovieViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieViewController.swift; sourceTree = "<group>"; };
+		ECBE453C1CB79C6D00673FBD /* TipLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipLabel.swift; sourceTree = "<group>"; };
+		ECBE453E1CB79D1D00673FBD /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		ECBE45401CB79F5C00673FBD /* SwiftyJson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJson.swift; sourceTree = "<group>"; };
+		ECBE45421CB79FE500673FBD /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		ECD188851CB76BE500ED3413 /* kidsmoview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kidsmoview.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECD188881CB76BE500ED3413 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ECD1888D1CB76BE500ED3413 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -122,6 +132,7 @@
 			children = (
 				ECBE451B1CB76EB100673FBD /* WelcomeViewController.swift */,
 				ECBE45381CB79AAA00673FBD /* KidsTabBarController.swift */,
+				ECBE453A1CB79C1900673FBD /* MovieViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -132,6 +143,7 @@
 				ECBE452A1CB780AF00673FBD /* NSObject+String.swift */,
 				ECBE45231CB7748000673FBD /* UIImage+Extension.swift */,
 				ECBE45361CB7918600673FBD /* UIImageView+downloadimage.swift */,
+				ECBE453E1CB79D1D00673FBD /* UIView+Extension.swift */,
 			);
 			name = Extension;
 			sourceTree = "<group>";
@@ -140,6 +152,8 @@
 			isa = PBXGroup;
 			children = (
 				ECBE45261CB775CF00673FBD /* Common.swift */,
+				ECBE45401CB79F5C00673FBD /* SwiftyJson.swift */,
+				ECBE45421CB79FE500673FBD /* Constants.swift */,
 			);
 			name = Helper;
 			sourceTree = "<group>";
@@ -150,6 +164,7 @@
 				ECBE452D1CB78E2B00673FBD /* SearchResultCell.swift */,
 				ECBE452F1CB78E7800673FBD /* SearchResultCell.xib */,
 				ECBE45311CB78EA500673FBD /* FloatRatingView.swift */,
+				ECBE453C1CB79C6D00673FBD /* TipLabel.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -411,10 +426,15 @@
 				ECD188911CB76BE500ED3413 /* kidsmoview.xcdatamodeld in Sources */,
 				ECBE45371CB7918600673FBD /* UIImageView+downloadimage.swift in Sources */,
 				ECBE45351CB78F8500673FBD /* Film.swift in Sources */,
+				ECBE45431CB79FE500673FBD /* Constants.swift in Sources */,
 				ECBE45271CB775CF00673FBD /* Common.swift in Sources */,
+				ECBE453F1CB79D1D00673FBD /* UIView+Extension.swift in Sources */,
 				ECBE45321CB78EA500673FBD /* FloatRatingView.swift in Sources */,
 				ECBE452E1CB78E2B00673FBD /* SearchResultCell.swift in Sources */,
 				ECD188891CB76BE500ED3413 /* AppDelegate.swift in Sources */,
+				ECBE453D1CB79C6D00673FBD /* TipLabel.swift in Sources */,
+				ECBE453B1CB79C1900673FBD /* MovieViewController.swift in Sources */,
+				ECBE45411CB79F5C00673FBD /* SwiftyJson.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

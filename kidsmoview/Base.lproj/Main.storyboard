@@ -24,10 +24,10 @@
             </objects>
             <point key="canvasLocation" x="690" y="723"/>
         </scene>
-        <!--View Controller-->
+        <!--Movie View Controller-->
         <scene sceneID="zxi-lu-wcF">
             <objects>
-                <viewController id="y1h-B7-s41" sceneMemberID="viewController">
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="y1h-B7-s41" customClass="MovieViewController" customModule="kidsmoview" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="pkA-dC-CLM"/>
                         <viewControllerLayoutGuide type="bottom" id="asC-Yu-KzC"/>
@@ -35,9 +35,24 @@
                     <view key="view" contentMode="scaleToFill" id="0sA-tX-3cT">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="4uT-Ry-XAw">
+                                <rect key="frame" x="0.0" y="64" width="600" height="487"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </tableView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="4uT-Ry-XAw" firstAttribute="leading" secondItem="0sA-tX-3cT" secondAttribute="leading" id="9FS-kM-aRd"/>
+                            <constraint firstAttribute="trailing" secondItem="4uT-Ry-XAw" secondAttribute="trailing" id="Pua-VO-fOy"/>
+                            <constraint firstItem="4uT-Ry-XAw" firstAttribute="top" secondItem="pkA-dC-CLM" secondAttribute="bottom" id="nyc-rT-WqI"/>
+                            <constraint firstItem="asC-Yu-KzC" firstAttribute="top" secondItem="4uT-Ry-XAw" secondAttribute="bottom" id="sDx-H1-Tam"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Afd-ox-n1a"/>
+                    <connections>
+                        <outlet property="moviewTableView" destination="4uT-Ry-XAw" id="kWg-Gx-4wb"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lN4-Oy-jgQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -61,11 +76,11 @@
             </objects>
             <point key="canvasLocation" x="-130" y="393"/>
         </scene>
-        <!--Item 1-->
+        <!--Movie-->
         <scene sceneID="W8L-Cg-AQ0">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="5FB-XB-Tcj" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item 1" id="WEq-Uh-LcB"/>
+                    <tabBarItem key="tabBarItem" title="Movie" image="film" id="WEq-Uh-LcB"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="t19-g4-uPd">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -81,4 +96,7 @@
             <point key="canvasLocation" x="690" y="62"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="film" width="30" height="30"/>
+    </resources>
 </document>
