@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>ObjectMapper.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -22,17 +27,22 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>16148D73B6A35D04E7215D55003E5BB8</key>
+		<key>582C7D1460885672DEBF9AAAB043314F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>3674DBD47B457BD915CF1FB148BEFD09</key>
+		<key>91E2EF886D38C1C7B0DDB4F4D7F654DA</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>61338267234087EDB5855DE485266364</key>
+		<key>C8F54543305BD95F34FAB796C9CAAFCA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F56A99E876536958DC96F40FB5390FD6</key>
 		<dict>
 			<key>primary</key>
 			<true/>

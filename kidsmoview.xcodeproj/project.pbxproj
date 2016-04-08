@@ -12,6 +12,11 @@
 		ECBE45241CB7748000673FBD /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBE45231CB7748000673FBD /* UIImage+Extension.swift */; };
 		ECBE45271CB775CF00673FBD /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBE45261CB775CF00673FBD /* Common.swift */; };
 		ECBE452B1CB780AF00673FBD /* NSObject+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBE452A1CB780AF00673FBD /* NSObject+String.swift */; };
+		ECBE452E1CB78E2B00673FBD /* SearchResultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBE452D1CB78E2B00673FBD /* SearchResultCell.swift */; };
+		ECBE45301CB78E7800673FBD /* SearchResultCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECBE452F1CB78E7800673FBD /* SearchResultCell.xib */; };
+		ECBE45321CB78EA500673FBD /* FloatRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBE45311CB78EA500673FBD /* FloatRatingView.swift */; };
+		ECBE45351CB78F8500673FBD /* Film.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBE45341CB78F8500673FBD /* Film.swift */; };
+		ECBE45371CB7918600673FBD /* UIImageView+downloadimage.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBE45361CB7918600673FBD /* UIImageView+downloadimage.swift */; };
 		ECD188891CB76BE500ED3413 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD188881CB76BE500ED3413 /* AppDelegate.swift */; };
 		ECD1888B1CB76BE500ED3413 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD1888A1CB76BE500ED3413 /* ViewController.swift */; };
 		ECD1888E1CB76BE500ED3413 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECD1888C1CB76BE500ED3413 /* Main.storyboard */; };
@@ -48,6 +53,11 @@
 		ECBE45231CB7748000673FBD /* UIImage+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
 		ECBE45261CB775CF00673FBD /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
 		ECBE452A1CB780AF00673FBD /* NSObject+String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+String.swift"; sourceTree = "<group>"; };
+		ECBE452D1CB78E2B00673FBD /* SearchResultCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResultCell.swift; sourceTree = "<group>"; };
+		ECBE452F1CB78E7800673FBD /* SearchResultCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchResultCell.xib; sourceTree = "<group>"; };
+		ECBE45311CB78EA500673FBD /* FloatRatingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatRatingView.swift; sourceTree = "<group>"; };
+		ECBE45341CB78F8500673FBD /* Film.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Film.swift; sourceTree = "<group>"; };
+		ECBE45361CB7918600673FBD /* UIImageView+downloadimage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+downloadimage.swift"; sourceTree = "<group>"; };
 		ECD188851CB76BE500ED3413 /* kidsmoview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kidsmoview.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECD188881CB76BE500ED3413 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ECD1888A1CB76BE500ED3413 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -118,7 +128,9 @@
 		ECBE45221CB7747000673FBD /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				ECBE452A1CB780AF00673FBD /* NSObject+String.swift */,
 				ECBE45231CB7748000673FBD /* UIImage+Extension.swift */,
+				ECBE45361CB7918600673FBD /* UIImageView+downloadimage.swift */,
 			);
 			name = Extension;
 			sourceTree = "<group>";
@@ -127,9 +139,26 @@
 			isa = PBXGroup;
 			children = (
 				ECBE45261CB775CF00673FBD /* Common.swift */,
-				ECBE452A1CB780AF00673FBD /* NSObject+String.swift */,
 			);
 			name = Helper;
+			sourceTree = "<group>";
+		};
+		ECBE452C1CB78E1700673FBD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ECBE452D1CB78E2B00673FBD /* SearchResultCell.swift */,
+				ECBE452F1CB78E7800673FBD /* SearchResultCell.xib */,
+				ECBE45311CB78EA500673FBD /* FloatRatingView.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		ECBE45331CB78F5600673FBD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ECBE45341CB78F8500673FBD /* Film.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 		ECD1887C1CB76BE500ED3413 = {
@@ -157,6 +186,8 @@
 		ECD188871CB76BE500ED3413 /* kidsmoview */ = {
 			isa = PBXGroup;
 			children = (
+				ECBE45331CB78F5600673FBD /* Model */,
+				ECBE452C1CB78E1700673FBD /* View */,
 				ECBE45251CB775C200673FBD /* Helper */,
 				ECBE45221CB7747000673FBD /* Extension */,
 				ECBE451A1CB76EA100673FBD /* Controller */,
@@ -299,6 +330,7 @@
 			files = (
 				ECD188961CB76BE500ED3413 /* LaunchScreen.storyboard in Resources */,
 				ECD188931CB76BE500ED3413 /* Assets.xcassets in Resources */,
+				ECBE45301CB78E7800673FBD /* SearchResultCell.xib in Resources */,
 				ECD1888E1CB76BE500ED3413 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -377,7 +409,11 @@
 				ECBE451C1CB76EB100673FBD /* WelcomeViewController.swift in Sources */,
 				ECBE45241CB7748000673FBD /* UIImage+Extension.swift in Sources */,
 				ECD188911CB76BE500ED3413 /* kidsmoview.xcdatamodeld in Sources */,
+				ECBE45371CB7918600673FBD /* UIImageView+downloadimage.swift in Sources */,
+				ECBE45351CB78F8500673FBD /* Film.swift in Sources */,
 				ECBE45271CB775CF00673FBD /* Common.swift in Sources */,
+				ECBE45321CB78EA500673FBD /* FloatRatingView.swift in Sources */,
+				ECBE452E1CB78E2B00673FBD /* SearchResultCell.swift in Sources */,
 				ECD188891CB76BE500ED3413 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
