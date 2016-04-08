@@ -55,7 +55,7 @@ class WelcomeViewController: UIViewController {
                     // 进入主页
                     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (Int64)(1 * NSEC_PER_SEC)), dispatch_get_main_queue()) { () -> Void in
                         //ViewController is created in Storyboard, so below code will cause black screen.
-                        let vc = mainStoryboard.instantiateViewControllerWithIdentifier(ViewController.identifier) as! ViewController
+                        let vc = mainStoryboard.instantiateViewControllerWithIdentifier(KidsTabBarController.identifier) as! KidsTabBarController
                         
                         UIApplication.sharedApplication().keyWindow?.rootViewController = vc
                         
