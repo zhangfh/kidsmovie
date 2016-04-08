@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8550D5E922E9212CC48C917D /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B50128768105B3317C791BD9 /* Pods.framework */; };
+		ECBE451C1CB76EB100673FBD /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBE451B1CB76EB100673FBD /* WelcomeViewController.swift */; };
+		ECBE45241CB7748000673FBD /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBE45231CB7748000673FBD /* UIImage+Extension.swift */; };
+		ECBE45271CB775CF00673FBD /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBE45261CB775CF00673FBD /* Common.swift */; };
+		ECBE452B1CB780AF00673FBD /* NSObject+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBE452A1CB780AF00673FBD /* NSObject+String.swift */; };
 		ECD188891CB76BE500ED3413 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD188881CB76BE500ED3413 /* AppDelegate.swift */; };
 		ECD1888B1CB76BE500ED3413 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD1888A1CB76BE500ED3413 /* ViewController.swift */; };
 		ECD1888E1CB76BE500ED3413 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECD1888C1CB76BE500ED3413 /* Main.storyboard */; };
@@ -35,6 +40,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		311E241508D86A51CCF23879 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		B50128768105B3317C791BD9 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB172514BA6D1CAA35FA75D3 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		ECBE451B1CB76EB100673FBD /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		ECBE451F1CB7746000673FBD /* kidsmoview-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "kidsmoview-Bridging-Header.h"; sourceTree = "<group>"; };
+		ECBE45231CB7748000673FBD /* UIImage+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
+		ECBE45261CB775CF00673FBD /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		ECBE452A1CB780AF00673FBD /* NSObject+String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+String.swift"; sourceTree = "<group>"; };
 		ECD188851CB76BE500ED3413 /* kidsmoview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kidsmoview.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECD188881CB76BE500ED3413 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ECD1888A1CB76BE500ED3413 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8550D5E922E9212CC48C917D /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +90,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F759D6534226FC5641F268E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B50128768105B3317C791BD9 /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		839DE32716BC31F282CE86F4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CB172514BA6D1CAA35FA75D3 /* Pods.debug.xcconfig */,
+				311E241508D86A51CCF23879 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		ECBE451A1CB76EA100673FBD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				ECBE451B1CB76EB100673FBD /* WelcomeViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		ECBE45221CB7747000673FBD /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				ECBE45231CB7748000673FBD /* UIImage+Extension.swift */,
+			);
+			name = Extension;
+			sourceTree = "<group>";
+		};
+		ECBE45251CB775C200673FBD /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				ECBE45261CB775CF00673FBD /* Common.swift */,
+				ECBE452A1CB780AF00673FBD /* NSObject+String.swift */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
 		ECD1887C1CB76BE500ED3413 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +139,8 @@
 				ECD1889F1CB76BE600ED3413 /* kidsmoviewTests */,
 				ECD188AA1CB76BE600ED3413 /* kidsmoviewUITests */,
 				ECD188861CB76BE500ED3413 /* Products */,
+				839DE32716BC31F282CE86F4 /* Pods */,
+				1F759D6534226FC5641F268E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +157,9 @@
 		ECD188871CB76BE500ED3413 /* kidsmoview */ = {
 			isa = PBXGroup;
 			children = (
+				ECBE45251CB775C200673FBD /* Helper */,
+				ECBE45221CB7747000673FBD /* Extension */,
+				ECBE451A1CB76EA100673FBD /* Controller */,
 				ECD188881CB76BE500ED3413 /* AppDelegate.swift */,
 				ECD1888A1CB76BE500ED3413 /* ViewController.swift */,
 				ECD1888C1CB76BE500ED3413 /* Main.storyboard */,
@@ -106,6 +167,7 @@
 				ECD188941CB76BE500ED3413 /* LaunchScreen.storyboard */,
 				ECD188971CB76BE600ED3413 /* Info.plist */,
 				ECD1888F1CB76BE500ED3413 /* kidsmoview.xcdatamodeld */,
+				ECBE451F1CB7746000673FBD /* kidsmoview-Bridging-Header.h */,
 			);
 			path = kidsmoview;
 			sourceTree = "<group>";
@@ -135,9 +197,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ECD188B01CB76BE600ED3413 /* Build configuration list for PBXNativeTarget "kidsmoview" */;
 			buildPhases = (
+				2D7BDB87A835FF2B059678D5 /* Check Pods Manifest.lock */,
 				ECD188811CB76BE500ED3413 /* Sources */,
 				ECD188821CB76BE500ED3413 /* Frameworks */,
 				ECD188831CB76BE500ED3413 /* Resources */,
+				C40D36EE83CB21A78A2662DD /* Embed Pods Frameworks */,
+				1A35C8B0D9A2966F3837AB1B /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -254,13 +319,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1A35C8B0D9A2966F3837AB1B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2D7BDB87A835FF2B059678D5 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C40D36EE83CB21A78A2662DD /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		ECD188811CB76BE500ED3413 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECBE452B1CB780AF00673FBD /* NSObject+String.swift in Sources */,
 				ECD1888B1CB76BE500ED3413 /* ViewController.swift in Sources */,
+				ECBE451C1CB76EB100673FBD /* WelcomeViewController.swift in Sources */,
+				ECBE45241CB7748000673FBD /* UIImage+Extension.swift in Sources */,
 				ECD188911CB76BE500ED3413 /* kidsmoview.xcdatamodeld in Sources */,
+				ECBE45271CB775CF00673FBD /* Common.swift in Sources */,
 				ECD188891CB76BE500ED3413 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -401,23 +518,30 @@
 		};
 		ECD188B11CB76BE600ED3413 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB172514BA6D1CAA35FA75D3 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = kidsmoview/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Lonshinetech.kidsmoview;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "kidsmoview/kidsmoview-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		ECD188B21CB76BE600ED3413 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 311E241508D86A51CCF23879 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = kidsmoview/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Lonshinetech.kidsmoview;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "kidsmoview/kidsmoview-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -486,6 +610,7 @@
 				ECD188B21CB76BE600ED3413 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ECD188B31CB76BE600ED3413 /* Build configuration list for PBXNativeTarget "kidsmoviewTests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +619,7 @@
 				ECD188B51CB76BE600ED3413 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ECD188B61CB76BE600ED3413 /* Build configuration list for PBXNativeTarget "kidsmoviewUITests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +628,7 @@
 				ECD188B81CB76BE600ED3413 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
