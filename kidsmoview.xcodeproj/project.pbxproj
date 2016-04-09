@@ -21,7 +21,6 @@
 		ECBE453B1CB79C1900673FBD /* MovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBE453A1CB79C1900673FBD /* MovieViewController.swift */; };
 		ECBE453D1CB79C6D00673FBD /* TipLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBE453C1CB79C6D00673FBD /* TipLabel.swift */; };
 		ECBE453F1CB79D1D00673FBD /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBE453E1CB79D1D00673FBD /* UIView+Extension.swift */; };
-		ECBE45411CB79F5C00673FBD /* SwiftyJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBE45401CB79F5C00673FBD /* SwiftyJson.swift */; };
 		ECBE45431CB79FE500673FBD /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBE45421CB79FE500673FBD /* Constants.swift */; };
 		ECD188891CB76BE500ED3413 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD188881CB76BE500ED3413 /* AppDelegate.swift */; };
 		ECD1888E1CB76BE500ED3413 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECD1888C1CB76BE500ED3413 /* Main.storyboard */; };
@@ -67,7 +66,6 @@
 		ECBE453A1CB79C1900673FBD /* MovieViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieViewController.swift; sourceTree = "<group>"; };
 		ECBE453C1CB79C6D00673FBD /* TipLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipLabel.swift; sourceTree = "<group>"; };
 		ECBE453E1CB79D1D00673FBD /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
-		ECBE45401CB79F5C00673FBD /* SwiftyJson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJson.swift; sourceTree = "<group>"; };
 		ECBE45421CB79FE500673FBD /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		ECD188851CB76BE500ED3413 /* kidsmoview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kidsmoview.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECD188881CB76BE500ED3413 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -152,7 +150,6 @@
 			isa = PBXGroup;
 			children = (
 				ECBE45261CB775CF00673FBD /* Common.swift */,
-				ECBE45401CB79F5C00673FBD /* SwiftyJson.swift */,
 				ECBE45421CB79FE500673FBD /* Constants.swift */,
 			);
 			name = Helper;
@@ -434,7 +431,6 @@
 				ECD188891CB76BE500ED3413 /* AppDelegate.swift in Sources */,
 				ECBE453D1CB79C6D00673FBD /* TipLabel.swift in Sources */,
 				ECBE453B1CB79C1900673FBD /* MovieViewController.swift in Sources */,
-				ECBE45411CB79F5C00673FBD /* SwiftyJson.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
