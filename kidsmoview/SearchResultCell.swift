@@ -34,7 +34,7 @@ class SearchResultCell: UITableViewCell {
         floatRatingView.contentMode = UIViewContentMode.ScaleAspectFit
         floatRatingView.maxRating = 10
         floatRatingView.minRating = 1
-        floatRatingView.editable = false
+        floatRatingView.editable = true
         floatRatingView.halfRatings = true
         floatRatingView.floatRatings = true
     }
@@ -67,6 +67,7 @@ class SearchResultCell: UITableViewCell {
         movieTitleLabel.text = film.name
         watchStatusLabel.text = "Watching"
         
+        
         if let image = film.w92Poster {
             postImageView.image = image
         } else {
@@ -76,7 +77,18 @@ class SearchResultCell: UITableViewCell {
                 postImageView.image = UIImage(named: "no-poster.jpeg")
             }
         }
-        
+        if let IMDBRating = film.IMDB {
+            rateLabel.text = "IMDB:"
+            floatRatingView.rating = Float(IMDBRating)!
+        }
+        if let director = film.director
+        {
+            directorLabel.text = director
+        }
+        if let language = film.language
+        {
+            productionCountriesLabel.text = language
+        }
         /*
          movieTitleLabel.text = movie.title
          
