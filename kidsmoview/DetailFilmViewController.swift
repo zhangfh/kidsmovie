@@ -26,9 +26,10 @@ class DetailFilmViewController: UIViewController {
         setupFilmTitleView()
         
         NSNotificationCenter.defaultCenter().addObserver(self, selector:#selector(DetailFilmViewController.downloadImageFinish), name: "DetailFilmDownloadImageNotification", object: nil)
-        
+        //how make it work, please set textview's scroll enable is false
         tableView.estimatedRowHeight = 44.0
         tableView.rowHeight = UITableViewAutomaticDimension
+        
         
         tableView.delegate = self
         tableView.dataSource = self
@@ -51,7 +52,7 @@ class DetailFilmViewController: UIViewController {
             
             
             if headerview.post == nil {
-                headerview.configure()
+                //headerview.configure()
                 headerview.post = currentfilm
             }
             
@@ -123,11 +124,9 @@ class DetailFilmViewController: UIViewController {
 
 extension DetailFilmViewController : UITableViewDataSource
 {
-    func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
-        return 144
-    }
+
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return filteredObjects.count
+        return filteredObjects.count + 1
     }
     
     func tableView(tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
@@ -136,30 +135,45 @@ extension DetailFilmViewController : UITableViewDataSource
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         
+        //hardcode
         
-       
-        if filteredObjects.count > 0
+        if indexPath.row == 0
         {
-            let comment = filteredObjects[indexPath.row]
             
-            let cellIdentifier = "OpenCommentCell"
+            let cellIdentifier = "DescriptionCell"
             
-            let cell = tableView.dequeueReusableCellWithIdentifier(cellIdentifier, forIndexPath: indexPath) as! OpenedCommentsCell
-            
-            cell.comment = comment
+            let cell = tableView.dequeueReusableCellWithIdentifier(cellIdentifier, forIndexPath: indexPath) as! DescriptionCell
+            cell.configure(currentfilm.longDesc)
             
             return cell
+        }else
+        {
+            
+            
+            if filteredObjects.count > 0
+            {
+                let comment = filteredObjects[indexPath.row - 1]
+                
+                let cellIdentifier = "OpenCommentCell"
+                
+                let cell = tableView.dequeueReusableCellWithIdentifier(cellIdentifier, forIndexPath: indexPath) as! OpenedCommentsCell
+                
+                cell.comment = comment
+                
+                return cell
+                
+                
+                
+            }
+            let cellIdentifier = "NoCommentCell"
+            
+            let cell = tableView.dequeueReusableCellWithIdentifier(cellIdentifier, forIndexPath: indexPath)
             
             
             
+            return cell
         }
-        let cellIdentifier = "NoCommentCell"
-        
-        let cell = tableView.dequeueReusableCellWithIdentifier(cellIdentifier, forIndexPath: indexPath) 
-        
 
-        
-        return cell
     }
 }
 

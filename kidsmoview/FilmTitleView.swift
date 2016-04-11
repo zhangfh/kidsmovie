@@ -38,10 +38,10 @@ class FilmTitleView: UIView {
  
     func configure(){
       
-        postImageView.addObserver(self, forKeyPath: "image", options: [], context: nil)
+        //postImageView.addObserver(self, forKeyPath: "image", options: [], context: nil)
     }
     deinit {
-        postImageView.removeObserver(self, forKeyPath: "image")
+        //postImageView.removeObserver(self, forKeyPath: "image")
     }
     
     
@@ -50,7 +50,7 @@ class FilmTitleView: UIView {
     }
     override func observeValueForKeyPath(keyPath: String?, ofObject object: AnyObject?, change: [String : AnyObject]?, context: UnsafeMutablePointer<Void>) {
         if keyPath == "image" {
-            self.setNeedsLayout()
+            //self.setNeedsLayout()
         }
     }
     

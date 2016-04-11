@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		8550D5E922E9212CC48C917D /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B50128768105B3317C791BD9 /* Pods.framework */; };
 		EC4BCBFE1CBB662B0045449B /* FilmTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4BCBFD1CBB662B0045449B /* FilmTitleView.swift */; };
+		EC57BE5E1CBBA1C8002B42A3 /* DescriptionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC57BE5D1CBBA1C8002B42A3 /* DescriptionCell.swift */; };
 		ECBE451C1CB76EB100673FBD /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBE451B1CB76EB100673FBD /* WelcomeViewController.swift */; };
 		ECBE45241CB7748000673FBD /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBE45231CB7748000673FBD /* UIImage+Extension.swift */; };
 		ECBE45271CB775CF00673FBD /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBE45261CB775CF00673FBD /* Common.swift */; };
@@ -57,6 +58,7 @@
 		B50128768105B3317C791BD9 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB172514BA6D1CAA35FA75D3 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		EC4BCBFD1CBB662B0045449B /* FilmTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilmTitleView.swift; sourceTree = "<group>"; };
+		EC57BE5D1CBBA1C8002B42A3 /* DescriptionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DescriptionCell.swift; sourceTree = "<group>"; };
 		ECBE451B1CB76EB100673FBD /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		ECBE451F1CB7746000673FBD /* kidsmoview-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "kidsmoview-Bridging-Header.h"; sourceTree = "<group>"; };
 		ECBE45231CB7748000673FBD /* UIImage+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
@@ -173,6 +175,7 @@
 				ECBE453C1CB79C6D00673FBD /* TipLabel.swift */,
 				ECBE454C1CBB54CC00673FBD /* OpenedCommentsCell.swift */,
 				EC4BCBFD1CBB662B0045449B /* FilmTitleView.swift */,
+				EC57BE5D1CBBA1C8002B42A3 /* DescriptionCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -432,6 +435,7 @@
 				ECBE451C1CB76EB100673FBD /* WelcomeViewController.swift in Sources */,
 				ECBE45241CB7748000673FBD /* UIImage+Extension.swift in Sources */,
 				ECBE45471CBB3DBA00673FBD /* DetailFilmViewController.swift in Sources */,
+				EC57BE5E1CBBA1C8002B42A3 /* DescriptionCell.swift in Sources */,
 				ECBE45391CB79AAA00673FBD /* KidsTabBarController.swift in Sources */,
 				ECD188911CB76BE500ED3413 /* kidsmoview.xcdatamodeld in Sources */,
 				EC4BCBFE1CBB662B0045449B /* FilmTitleView.swift in Sources */,
