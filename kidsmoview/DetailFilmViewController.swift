@@ -25,6 +25,8 @@ class DetailFilmViewController: UIViewController {
         
         setupFilmTitleView()
         
+        NSNotificationCenter.defaultCenter().addObserver(self, selector:#selector(DetailFilmViewController.downloadImageFinish), name: "DetailFilmDownloadImageNotification", object: nil)
+        
         tableView.estimatedRowHeight = 44.0
         tableView.rowHeight = UITableViewAutomaticDimension
         
@@ -33,11 +35,25 @@ class DetailFilmViewController: UIViewController {
         fetchComments()
     }
     
+    deinit {
+        NSNotificationCenter.defaultCenter().removeObserver(self)
+    }
+    
+    func downloadImageFinish()
+    {
+        setupFilmTitleView()
+        updateUI()
+    }
     func setupFilmTitleView()
     {
         if let headerview = tableView.tableHeaderView as? FilmTitleView {
             print("get headerview")
-            headerview.post = currentfilm
+            
+            
+            if headerview.post == nil {
+                headerview.configure()
+                headerview.post = currentfilm
+            }
             
             let height = headerview.systemLayoutSizeFittingSize(UILayoutFittingCompressedSize).height
             var frame = headerview.frame

@@ -75,7 +75,7 @@ class Film : Mappable
         case .posterW92:
             url = String(format: "http://www.skillwhisper.com/film/p/%@", w92PosterAddress)
         case .posterW300:
-            url = String(format: "http://www.skillwhisper.com/film/p/%@", w92PosterAddress)
+            url = String(format: "http://www.skillwhisper.com/film/p/%@", imageURL)
         case .movieDetails:
             url = String(format: "http://www.skillwhisper.com/film/moviedetail/%@", film_id)
         case .movieCredits:

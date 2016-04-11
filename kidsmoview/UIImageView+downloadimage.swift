@@ -32,7 +32,8 @@ extension UIImageView {
                                 case .w92:
                                     movie.w92Poster = image
                                 case .w300:
-                                    break
+                                    movie.fullImage = image
+                                NSNotificationCenter.defaultCenter().postNotificationName("DetailFilmDownloadImageNotification", object: self, userInfo: nil)
                                 }
                             }
                         })
