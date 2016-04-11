@@ -44,6 +44,9 @@ class DetailFilmViewController: UIViewController {
     {
         setupFilmTitleView()
         updateUI()
+        let newIndexPath = NSIndexPath(forRow: 0, inSection: 0)
+        tableView.scrollToRowAtIndexPath(newIndexPath, atScrollPosition: .Top, animated: true)
+
     }
     func setupFilmTitleView()
     {
