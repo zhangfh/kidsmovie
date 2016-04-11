@@ -4,35 +4,78 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Alamofire.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
 		<key>ObjectMapper.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>1</integer>
 		</dict>
 		<key>Pods.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>2</integer>
 		</dict>
 		<key>SDWebImage.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>3</integer>
 		</dict>
 		<key>SnapKit.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+		<key>SwiftyJSON.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>6</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>1211CD3899DB622ACC7A39C17A299AFF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1555760BA5735EAF85DC79EF56E44C52</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>582C7D1460885672DEBF9AAAB043314F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>79C040AFDDCE1BCBF6D8B5EB0B85887F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>91E2EF886D38C1C7B0DDB4F4D7F654DA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>92EC62E73CDF078991E540867BD1BF62</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A8CBC8AAF042CEA3438EB27EA154B23C</key>
 		<dict>
 			<key>primary</key>
 			<true/>

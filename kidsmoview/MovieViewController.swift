@@ -152,6 +152,11 @@ extension MovieViewController: UITableViewDelegate {
     
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         tableView.deselectRowAtIndexPath(indexPath, animated: true)
+        let vc = mainStoryboard.instantiateViewControllerWithIdentifier(DetailFilmViewController.identifier) as! DetailFilmViewController
+        
+        vc.currentfilm =   filteredObjects[indexPath.row]
+        
+        navigationController?.pushViewController(vc, animated: true)
     }
     
     func tableView(tableView: UITableView, editActionsForRowAtIndexPath indexPath: NSIndexPath) -> [UITableViewRowAction]? {

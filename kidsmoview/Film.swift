@@ -39,8 +39,10 @@ class Film : Mappable
     var w92PosterAddress: String!
     var date : String!
     var longDesc : String!
+    var imageURL : String!
     
     var w92Poster: UIImage?
+    var fullImage: UIImage?
     
     required init?(_ map: Map) {
         
@@ -61,6 +63,7 @@ class Film : Mappable
         
         remark <- map["remark"]
         w92PosterAddress <- map["w92PosterAddress"]
+        imageURL <- map["imageURL"]
         date <- map["date"]
         longDesc <- map["longDesc"]
     }
