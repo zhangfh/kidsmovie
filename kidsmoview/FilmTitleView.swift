@@ -17,9 +17,13 @@ class FilmTitleView: UIView {
     var post: Film? {
         didSet {
             if let post = post {
-                if post.imageURL != nil {
-                    imageDownloadTask = postImageView.loadImageWithMovieObject(post, imageSize: Film.ImageSize.w300)
-                    print("ready download")
+                if post.fullImage != nil{
+                    postImageView.image = post.fullImage
+                }else{
+                    if post.imageURL != nil {
+                        imageDownloadTask = postImageView.loadImageWithMovieObject(post, imageSize: Film.ImageSize.w300)
+                        print("ready download")
+                    }
                 }
             }
         }
