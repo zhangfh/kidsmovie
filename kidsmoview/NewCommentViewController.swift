@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+import ObjectMapper
 class NewCommentViewController : UIViewController
 {
     override func viewDidLoad() {
@@ -216,6 +216,30 @@ class NewCommentViewController : UIViewController
     func didTappedSendButton() {
         print("text \(textView.text)")
         print("base64 \(textView.text.toBase64())")
+        
+        let commentModel = CommentModel(kidsfilm_id:"1", autherUsername:"maxburns", text: textView.text.toBase64())
+        commentModel._type = "1"
+        commentModel.comments_id = ""
+        commentModel.level  = "1"
+        commentModel.dateCreated = "2016-04-12"
+        commentModel.parentCommentID = ""
+        
+        let JSONString = Mapper().toJSONString(commentModel, prettyPrint:true)
+        print("json is \(JSONString)")
+        
+        var dict = ["results": JSONString!]
+        dict["error"] = "0"
+        
+        do{
+            let jsonData = try NSJSONSerialization.dataWithJSONObject(dict, options: .PrettyPrinted)
+            print("jsonData is \(jsonData)")
+            
+        }catch let aerr as NSError
+        {
+            print("aerr is \(aerr)")
+        }
+        
+        
         self.didTappedCancelButton()
     }
     

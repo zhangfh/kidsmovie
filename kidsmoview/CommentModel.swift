@@ -44,6 +44,13 @@ class CommentModel : Mappable
         
     }
     
+    init(kidsfilm_id:String, autherUsername: String, text:String)
+    {
+        self.kidsfilm_id = kidsfilm_id
+        self.autherUsername = autherUsername
+        self.text = text
+    }
+    
     func mapping(map: Map) {
         
          _type <- map["type"]
