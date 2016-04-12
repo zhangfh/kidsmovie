@@ -126,6 +126,7 @@ class DetailFilmViewController: UIViewController {
     
     func addNewComment()
     {
+        self.navigationController?.pushViewController(NewCommentViewController(), animated: true)
         
     }
 }
