@@ -123,6 +123,11 @@ class DetailFilmViewController: UIViewController {
         print("ok")
         self.tableView.reloadData()
     }
+    
+    func addNewComment()
+    {
+        
+    }
 }
 
 extension DetailFilmViewController : UITableViewDataSource
@@ -183,4 +188,40 @@ extension DetailFilmViewController : UITableViewDataSource
 extension DetailFilmViewController : UITableViewDelegate
 {
     
+    func tableView(tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
+        
+        if(section == 0) {
+            
+            let view = UIView() // The width will be the same as the cell, and the height should be set in tableView:heightForRowAtIndexPath:
+            
+            let label = UILabel()
+            label.text=currentfilm.name
+            label.translatesAutoresizingMaskIntoConstraints = false
+            
+            
+            let button = UIButton(type: .System)
+            button.addTarget(self, action: #selector(DetailFilmViewController.addNewComment), forControlEvents:.TouchUpInside)
+            button.translatesAutoresizingMaskIntoConstraints = false
+            button.setTitle("Add New Comment", forState: .Normal)
+            button.setTitleColor(UIColor.redColor(), forState: .Normal)
+           
+            let views = ["label": label,"button":button,"view": view]
+            
+            view.addSubview(label)
+            view.addSubview(button)
+            
+            let horizontallayoutContraints = NSLayoutConstraint.constraintsWithVisualFormat("H:|-10-[label]-60-[button]-10-|", options: .AlignAllCenterY, metrics: nil, views: views)
+            view.addConstraints(horizontallayoutContraints)
+            
+            let verticalLayoutContraint = NSLayoutConstraint(item: label, attribute: .CenterY, relatedBy: .Equal, toItem: view, attribute: .CenterY, multiplier: 1, constant: 0)
+            view.addConstraint(verticalLayoutContraint)
+            return view
+        }
+        return nil
+    }
+    
+    
+    func tableView(tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
+        return 50
+    }
 }
