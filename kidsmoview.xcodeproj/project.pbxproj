@@ -10,6 +10,7 @@
 		8550D5E922E9212CC48C917D /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B50128768105B3317C791BD9 /* Pods.framework */; };
 		EC4BCBFE1CBB662B0045449B /* FilmTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4BCBFD1CBB662B0045449B /* FilmTitleView.swift */; };
 		EC57BE5E1CBBA1C8002B42A3 /* DescriptionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC57BE5D1CBBA1C8002B42A3 /* DescriptionCell.swift */; };
+		EC57BE601CBCA38E002B42A3 /* tableviewHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC57BE5F1CBCA38E002B42A3 /* tableviewHeader.xib */; };
 		ECBE451C1CB76EB100673FBD /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBE451B1CB76EB100673FBD /* WelcomeViewController.swift */; };
 		ECBE45241CB7748000673FBD /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBE45231CB7748000673FBD /* UIImage+Extension.swift */; };
 		ECBE45271CB775CF00673FBD /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBE45261CB775CF00673FBD /* Common.swift */; };
@@ -59,6 +60,7 @@
 		CB172514BA6D1CAA35FA75D3 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		EC4BCBFD1CBB662B0045449B /* FilmTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilmTitleView.swift; sourceTree = "<group>"; };
 		EC57BE5D1CBBA1C8002B42A3 /* DescriptionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DescriptionCell.swift; sourceTree = "<group>"; };
+		EC57BE5F1CBCA38E002B42A3 /* tableviewHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = tableviewHeader.xib; sourceTree = "<group>"; };
 		ECBE451B1CB76EB100673FBD /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		ECBE451F1CB7746000673FBD /* kidsmoview-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "kidsmoview-Bridging-Header.h"; sourceTree = "<group>"; };
 		ECBE45231CB7748000673FBD /* UIImage+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
@@ -176,6 +178,7 @@
 				ECBE454C1CBB54CC00673FBD /* OpenedCommentsCell.swift */,
 				EC4BCBFD1CBB662B0045449B /* FilmTitleView.swift */,
 				EC57BE5D1CBBA1C8002B42A3 /* DescriptionCell.swift */,
+				EC57BE5F1CBCA38E002B42A3 /* tableviewHeader.xib */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -355,6 +358,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC57BE601CBCA38E002B42A3 /* tableviewHeader.xib in Resources */,
 				ECD188961CB76BE500ED3413 /* LaunchScreen.storyboard in Resources */,
 				ECD188931CB76BE500ED3413 /* Assets.xcassets in Resources */,
 				ECBE45301CB78E7800673FBD /* SearchResultCell.xib in Resources */,

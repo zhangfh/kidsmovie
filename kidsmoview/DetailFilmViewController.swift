@@ -192,6 +192,12 @@ extension DetailFilmViewController : UITableViewDelegate
         
         if(section == 0) {
             
+            /*
+            let view1 =  NSBundle.mainBundle().loadNibNamed("tableviewHeader", owner: self, options: nil).last as! UIView
+            
+            return view1
+            */
+            
             let view = UIView() // The width will be the same as the cell, and the height should be set in tableView:heightForRowAtIndexPath:
             
             let label = UILabel()
