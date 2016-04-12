@@ -126,7 +126,18 @@ class DetailFilmViewController: UIViewController {
     
     func addNewComment()
     {
-        self.navigationController?.pushViewController(NewCommentViewController(), animated: true)
+        if UserAccount.shareUserAccount.isLogin {
+            
+              self.navigationController?.pushViewController(NewCommentViewController(), animated: true)
+            
+        }else{
+            self.tabBarController?.selectedIndex = 1
+            
+            //let vc = UserStoryboard.instantiateViewControllerWithIdentifier(SignUpViewController.identifier) as! SignUpViewController
+            //presentViewController(vc, animated: true, completion: nil)
+        }
+
+       
         
     }
 }

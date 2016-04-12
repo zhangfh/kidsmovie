@@ -16,6 +16,12 @@
 		EC57BE661CBCB3FB002B42A3 /* UILabel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC57BE651CBCB3FB002B42A3 /* UILabel+Extension.swift */; };
 		EC57BE681CBCB78F002B42A3 /* UIBarButtonItem+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC57BE671CBCB78F002B42A3 /* UIBarButtonItem+Extension.swift */; };
 		EC57BE6A1CBCBF47002B42A3 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC57BE691CBCBF47002B42A3 /* String+Extension.swift */; };
+		EC57BE6E1CBCDD5D002B42A3 /* User.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC57BE6D1CBCDD5D002B42A3 /* User.storyboard */; };
+		EC57BE701CBCDDDB002B42A3 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC57BE6F1CBCDDDB002B42A3 /* SignUpViewController.swift */; };
+		EC57BE721CBCDEA8002B42A3 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC57BE711CBCDEA8002B42A3 /* UIViewController+Extension.swift */; };
+		EC57BE741CBCDF12002B42A3 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC57BE731CBCDF12002B42A3 /* UserManager.swift */; };
+		EC57BE761CBCDF5E002B42A3 /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC57BE751CBCDF5E002B42A3 /* Device.swift */; };
+		EC57BE781CBCE1BE002B42A3 /* UserAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC57BE771CBCE1BE002B42A3 /* UserAccount.swift */; };
 		ECBE451C1CB76EB100673FBD /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBE451B1CB76EB100673FBD /* WelcomeViewController.swift */; };
 		ECBE45241CB7748000673FBD /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBE45231CB7748000673FBD /* UIImage+Extension.swift */; };
 		ECBE45271CB775CF00673FBD /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBE45261CB775CF00673FBD /* Common.swift */; };
@@ -71,6 +77,12 @@
 		EC57BE651CBCB3FB002B42A3 /* UILabel+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+Extension.swift"; sourceTree = "<group>"; };
 		EC57BE671CBCB78F002B42A3 /* UIBarButtonItem+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem+Extension.swift"; sourceTree = "<group>"; };
 		EC57BE691CBCBF47002B42A3 /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		EC57BE6D1CBCDD5D002B42A3 /* User.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = User.storyboard; sourceTree = "<group>"; };
+		EC57BE6F1CBCDDDB002B42A3 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		EC57BE711CBCDEA8002B42A3 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		EC57BE731CBCDF12002B42A3 /* UserManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		EC57BE751CBCDF5E002B42A3 /* Device.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
+		EC57BE771CBCE1BE002B42A3 /* UserAccount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserAccount.swift; sourceTree = "<group>"; };
 		ECBE451B1CB76EB100673FBD /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		ECBE451F1CB7746000673FBD /* kidsmoview-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "kidsmoview-Bridging-Header.h"; sourceTree = "<group>"; };
 		ECBE45231CB7748000673FBD /* UIImage+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
@@ -155,6 +167,7 @@
 				ECBE453A1CB79C1900673FBD /* MovieViewController.swift */,
 				ECBE45461CBB3DBA00673FBD /* DetailFilmViewController.swift */,
 				EC57BE631CBCB2BE002B42A3 /* NewCommentViewController.swift */,
+				EC57BE6F1CBCDDDB002B42A3 /* SignUpViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -169,6 +182,7 @@
 				EC57BE651CBCB3FB002B42A3 /* UILabel+Extension.swift */,
 				EC57BE671CBCB78F002B42A3 /* UIBarButtonItem+Extension.swift */,
 				EC57BE691CBCBF47002B42A3 /* String+Extension.swift */,
+				EC57BE711CBCDEA8002B42A3 /* UIViewController+Extension.swift */,
 			);
 			name = Extension;
 			sourceTree = "<group>";
@@ -178,6 +192,7 @@
 			children = (
 				ECBE45261CB775CF00673FBD /* Common.swift */,
 				ECBE45421CB79FE500673FBD /* Constants.swift */,
+				EC57BE751CBCDF5E002B42A3 /* Device.swift */,
 			);
 			name = Helper;
 			sourceTree = "<group>";
@@ -203,6 +218,8 @@
 			children = (
 				ECBE45341CB78F8500673FBD /* Film.swift */,
 				ECBE45481CBB3E7600673FBD /* CommentModel.swift */,
+				EC57BE731CBCDF12002B42A3 /* UserManager.swift */,
+				EC57BE771CBCE1BE002B42A3 /* UserAccount.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -239,6 +256,7 @@
 				ECBE451A1CB76EA100673FBD /* Controller */,
 				ECD188881CB76BE500ED3413 /* AppDelegate.swift */,
 				ECD1888C1CB76BE500ED3413 /* Main.storyboard */,
+				EC57BE6D1CBCDD5D002B42A3 /* User.storyboard */,
 				ECD188921CB76BE500ED3413 /* Assets.xcassets */,
 				ECD188941CB76BE500ED3413 /* LaunchScreen.storyboard */,
 				ECD188971CB76BE600ED3413 /* Info.plist */,
@@ -378,6 +396,7 @@
 				ECD188931CB76BE500ED3413 /* Assets.xcassets in Resources */,
 				ECBE45301CB78E7800673FBD /* SearchResultCell.xib in Resources */,
 				ECD1888E1CB76BE500ED3413 /* Main.storyboard in Resources */,
+				EC57BE6E1CBCDD5D002B42A3 /* User.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -450,7 +469,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC57BE721CBCDEA8002B42A3 /* UIViewController+Extension.swift in Sources */,
 				ECBE452B1CB780AF00673FBD /* NSObject+String.swift in Sources */,
+				EC57BE741CBCDF12002B42A3 /* UserManager.swift in Sources */,
 				ECBE451C1CB76EB100673FBD /* WelcomeViewController.swift in Sources */,
 				ECBE45241CB7748000673FBD /* UIImage+Extension.swift in Sources */,
 				EC57BE661CBCB3FB002B42A3 /* UILabel+Extension.swift in Sources */,
@@ -458,9 +479,11 @@
 				EC57BE5E1CBBA1C8002B42A3 /* DescriptionCell.swift in Sources */,
 				ECBE45391CB79AAA00673FBD /* KidsTabBarController.swift in Sources */,
 				EC57BE621CBCB1FA002B42A3 /* PlaceholderTextView.swift in Sources */,
+				EC57BE761CBCDF5E002B42A3 /* Device.swift in Sources */,
 				EC57BE6A1CBCBF47002B42A3 /* String+Extension.swift in Sources */,
 				ECD188911CB76BE500ED3413 /* kidsmoview.xcdatamodeld in Sources */,
 				EC4BCBFE1CBB662B0045449B /* FilmTitleView.swift in Sources */,
+				EC57BE781CBCE1BE002B42A3 /* UserAccount.swift in Sources */,
 				ECBE454D1CBB54CC00673FBD /* OpenedCommentsCell.swift in Sources */,
 				ECBE45371CB7918600673FBD /* UIImageView+downloadimage.swift in Sources */,
 				EC57BE641CBCB2BE002B42A3 /* NewCommentViewController.swift in Sources */,
@@ -474,6 +497,7 @@
 				ECBE452E1CB78E2B00673FBD /* SearchResultCell.swift in Sources */,
 				ECD188891CB76BE500ED3413 /* AppDelegate.swift in Sources */,
 				ECBE453D1CB79C6D00673FBD /* TipLabel.swift in Sources */,
+				EC57BE701CBCDDDB002B42A3 /* SignUpViewController.swift in Sources */,
 				ECBE453B1CB79C1900673FBD /* MovieViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
